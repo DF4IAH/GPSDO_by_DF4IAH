@@ -673,6 +673,73 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <pad name="14" x="11.43" y="3.81" drill="0.8128" shape="long" rot="R90"/>
 <pad name="15" x="8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
 </package>
+<package name="SOIC24">
+<description>&lt;b&gt;Wide Outline Package&lt;/b&gt; 300 mil</description>
+<wire x1="7.239" y1="3.6957" x2="-7.239" y2="3.6957" width="0.1524" layer="21"/>
+<wire x1="7.239" y1="-3.6957" x2="7.62" y2="-3.3147" width="0.1524" layer="21" curve="90"/>
+<wire x1="-7.62" y1="3.3147" x2="-7.239" y2="3.6957" width="0.1524" layer="21" curve="-90"/>
+<wire x1="7.239" y1="3.6957" x2="7.62" y2="3.3147" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-7.62" y1="-3.3147" x2="-7.239" y2="-3.6957" width="0.1524" layer="21" curve="90"/>
+<wire x1="-7.239" y1="-3.6957" x2="7.239" y2="-3.6957" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-3.3147" x2="7.62" y2="-3.1877" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-3.1877" x2="7.62" y2="3.3147" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="3.3147" x2="-7.62" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="0.508" x2="-7.62" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-0.508" x2="-7.62" y2="-3.1877" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-3.1877" x2="-7.62" y2="-3.3147" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="0.508" x2="-7.62" y2="-0.508" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-7.62" y1="-3.1877" x2="7.62" y2="-3.1877" width="0.0508" layer="21"/>
+<smd name="1" x="-6.985" y="-4.3053" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="24" x="-6.985" y="4.3053" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="2" x="-5.715" y="-4.3053" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="3" x="-4.445" y="-4.3053" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="23" x="-5.715" y="4.3053" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="22" x="-4.445" y="4.3053" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="4" x="-3.175" y="-4.3053" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="21" x="-3.175" y="4.3053" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="5" x="-1.905" y="-4.3053" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="20" x="-1.905" y="4.3053" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="6" x="-0.635" y="-4.3053" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="7" x="0.635" y="-4.3053" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="19" x="-0.635" y="4.3053" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="18" x="0.635" y="4.3053" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="12" x="6.985" y="-4.3053" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="13" x="6.985" y="4.3053" dx="0.6604" dy="2.032" layer="1"/>
+<text x="-4.064" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-8.001" y="-2.667" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<rectangle x1="-3.429" y1="3.6957" x2="-2.921" y2="4.8387" layer="51"/>
+<rectangle x1="-7.239" y1="-4.8387" x2="-6.731" y2="-3.6957" layer="51"/>
+<rectangle x1="-5.969" y1="-4.8387" x2="-5.461" y2="-3.6957" layer="51"/>
+<rectangle x1="-4.699" y1="-4.8387" x2="-4.191" y2="-3.6957" layer="51"/>
+<rectangle x1="-3.429" y1="-4.8387" x2="-2.921" y2="-3.6957" layer="51"/>
+<rectangle x1="-4.699" y1="3.6957" x2="-4.191" y2="4.8387" layer="51"/>
+<rectangle x1="-5.969" y1="3.6957" x2="-5.461" y2="4.8387" layer="51"/>
+<rectangle x1="-7.239" y1="3.6957" x2="-6.731" y2="4.8387" layer="51"/>
+<rectangle x1="-2.159" y1="-4.8387" x2="-1.651" y2="-3.6957" layer="51"/>
+<rectangle x1="-0.889" y1="-4.8387" x2="-0.381" y2="-3.6957" layer="51"/>
+<rectangle x1="0.381" y1="-4.8387" x2="0.889" y2="-3.6957" layer="51"/>
+<rectangle x1="6.731" y1="-4.8387" x2="7.239" y2="-3.6957" layer="51"/>
+<rectangle x1="-2.159" y1="3.6957" x2="-1.651" y2="4.8387" layer="51"/>
+<rectangle x1="-0.889" y1="3.6957" x2="-0.381" y2="4.8387" layer="51"/>
+<rectangle x1="0.381" y1="3.6957" x2="0.889" y2="4.8387" layer="51"/>
+<rectangle x1="6.731" y1="3.6957" x2="7.239" y2="4.8387" layer="51"/>
+<smd name="8" x="1.905" y="-4.3053" dx="0.6604" dy="2.032" layer="1"/>
+<rectangle x1="1.651" y1="-4.8387" x2="2.159" y2="-3.6957" layer="51"/>
+<smd name="9" x="3.175" y="-4.3053" dx="0.6604" dy="2.032" layer="1"/>
+<rectangle x1="2.921" y1="-4.8387" x2="3.429" y2="-3.6957" layer="51"/>
+<smd name="10" x="4.445" y="-4.3053" dx="0.6604" dy="2.032" layer="1"/>
+<rectangle x1="4.191" y1="-4.8387" x2="4.699" y2="-3.6957" layer="51"/>
+<smd name="11" x="5.715" y="-4.3053" dx="0.6604" dy="2.032" layer="1"/>
+<rectangle x1="5.461" y1="-4.8387" x2="5.969" y2="-3.6957" layer="51"/>
+<smd name="17" x="1.905" y="4.3053" dx="0.6604" dy="2.032" layer="1"/>
+<rectangle x1="1.651" y1="3.6957" x2="2.159" y2="4.8387" layer="51"/>
+<smd name="16" x="3.175" y="4.3053" dx="0.6604" dy="2.032" layer="1"/>
+<rectangle x1="2.921" y1="3.6957" x2="3.429" y2="4.8387" layer="51"/>
+<smd name="15" x="4.445" y="4.3053" dx="0.6604" dy="2.032" layer="1"/>
+<rectangle x1="4.191" y1="3.6957" x2="4.699" y2="4.8387" layer="51"/>
+<smd name="14" x="5.715" y="4.3053" dx="0.6604" dy="2.032" layer="1"/>
+<rectangle x1="5.461" y1="3.6957" x2="5.969" y2="4.8387" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="7400">
@@ -2370,7 +2437,7 @@ all synchronous count, clear and load.</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="M" package="SO24">
+<device name="M" package="SOIC24">
 <connects>
 <connect gate="A" pin="CP" pad="1"/>
 <connect gate="A" pin="J1" pad="3"/>
