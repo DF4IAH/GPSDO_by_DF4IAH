@@ -6910,7 +6910,7 @@ n-channel JFET</description>
 <part name="GND1514" library="df4iah_supply" deviceset="GND" device=""/>
 <part name="GND121" library="df4iah_supply" deviceset="GND" device=""/>
 <part name="X101" library="df4iah_connector" deviceset="PHOENIX_1990067_1X8X2MM50_PTSA-0-5" device=""/>
-<part name="C111" library="df4iah_rcl" deviceset="C-EU" device="C0402" value="10pF"/>
+<part name="C111" library="df4iah_rcl" deviceset="C-EU" device="C0402" value="N/A"/>
 <part name="C112" library="df4iah_c-trimm" deviceset="C-TRIMM__EW_SGC3S" device="" value="EW_SGC3S300"/>
 <part name="C122" library="df4iah_rcl" deviceset="C-EU" device="C0805" value="10nF"/>
 <part name="C121" library="df4iah_rcl" deviceset="C-EU" device="C0805" value="10nF"/>
@@ -6930,8 +6930,8 @@ n-channel JFET</description>
 <part name="Q211" library="df4iah_crystal" deviceset="QST_QT26V_77.5KHZ" device="" value="QT26V-77.000k"/>
 <part name="GND201" library="df4iah_supply" deviceset="GND" device=""/>
 <part name="U271" library="df4iah_opamp" deviceset="LMH6645MF" device=""/>
-<part name="C213" library="df4iah_c-trimm" deviceset="C-TRIMM__EW_SGC3S" device="" value="EW_SGC3S100"/>
-<part name="C212" library="df4iah_rcl" deviceset="C-EU" device="C0402" value="1.5pF"/>
+<part name="C213" library="df4iah_c-trimm" deviceset="C-TRIMM__EW_SGC3S" device="" value="SGC3S030NM"/>
+<part name="C212" library="df4iah_rcl" deviceset="C-EU" device="C0402" value="12pF"/>
 <part name="GND251" library="df4iah_supply" deviceset="GND" device=""/>
 <part name="R251" library="df4iah_rcl" deviceset="R-EU_" device="R0805" value="1kR"/>
 <part name="C271" library="df4iah_rcl" deviceset="C-EU" device="C0805" value="10uF"/>
@@ -7155,7 +7155,7 @@ LFM / 20-100</text>
 <plain>
 <text x="165.1" y="12.7" size="2.54" layer="97" ratio="15">Crystal, Driver &amp;
 Decider</text>
-<text x="71.12" y="93.98" size="1.778" layer="97">3.0..10pF</text>
+<text x="71.12" y="93.98" size="1.778" layer="97">1.8..4.5pF</text>
 <text x="22.86" y="162.56" size="2.54" layer="97" ratio="15">Crystal, Driver &amp; Decider</text>
 <text x="187.96" y="76.2" size="1.778" layer="94">A = 0 .. 40 dB</text>
 <text x="53.34" y="119.38" size="1.778" layer="94" rot="R90">ESR_max = 50kR</text>

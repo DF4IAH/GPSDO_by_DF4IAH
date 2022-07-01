@@ -3449,7 +3449,7 @@ Covered vias can be set in Masks (Limit).
 <element name="H1512" library="df4iah_holes" package="3,2-PAD" value="MOUNT-PAD-ROUND3.2" x="5.08" y="5.08" locked="yes" smashed="yes"/>
 <element name="H1514" library="df4iah_holes" package="3,2-PAD" value="MOUNT-PAD-ROUND3.2" x="70.485" y="5.08" locked="yes" smashed="yes"/>
 <element name="X101" library="df4iah_connector" package="PHOENIX_1990067_1X8X2MM50_PTSA-0-5" value="PHOENIX_1990067_1X8X2MM50_PTSA-0-5" x="6.35" y="21.59" locked="yes" rot="R270"/>
-<element name="C111" library="df4iah_rcl" package="C0402" value="10pF" x="16.51" y="20.32" smashed="yes" rot="R270">
+<element name="C111" library="df4iah_rcl" package="C0402" value="N/A" x="16.51" y="20.32" smashed="yes" rot="R270">
 <attribute name="NAME" x="17.972453125" y="19.26111875" size="0.6096" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="14.9225" y="21.59" size="0.6096" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
@@ -3517,11 +3517,11 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="42.396603125" y="8.92855" size="0.6096" layer="25" font="vector" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="45.9994" y="13.97" size="0.6096" layer="27" font="vector" ratio="10" rot="SR180"/>
 </element>
-<element name="C213" library="df4iah_c-trimm" package="4MM5_X_3MM2__EW_SGC3S" value="EW_SGC3S100" x="43.18" y="27.94" smashed="yes" rot="R180">
+<element name="C213" library="df4iah_c-trimm" package="4MM5_X_3MM2__EW_SGC3S" value="SGC3S030NM" x="43.18" y="27.94" smashed="yes" rot="R180">
 <attribute name="NAME" x="45.710325" y="28.188434375" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="40.115" y="30.48" size="0.6096" layer="27" rot="R270"/>
 </element>
-<element name="C212" library="df4iah_rcl" package="C0402" value="1.5pF" x="40.64" y="27.94" smashed="yes" rot="R90">
+<element name="C212" library="df4iah_rcl" package="C0402" value="12pF" x="40.64" y="27.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="41.062315625" y="24.355440625" size="0.6096" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="42.2275" y="26.67" size="0.6096" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
