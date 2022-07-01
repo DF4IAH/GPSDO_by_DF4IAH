@@ -187,7 +187,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
-<description>UFBmod - the best digital modulation ever created :-)</description>
+<description>sGPSDO - MCU board for the ST32L432KC / STM32 Nucleo board.</description>
 <libraries>
 <library name="df4iah_frame">
 <description>&lt;b&gt;DF4IAH Library - Frame: schematic frame variants&lt;/b&gt;&lt;p&gt;</description>
@@ -7078,6 +7078,7 @@ Source: AVX .. aphvc.pdf</description>
 </attributes>
 <variantdefs>
 <variantdef name="Std"/>
+<variantdef name="noDCF77"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0.127" drill="0.3">
@@ -7156,37 +7157,81 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND931" library="df4iah_supply" deviceset="GND" device=""/>
 <part name="R911" library="df4iah_rcl" deviceset="R-EU_" device="R0805" value="1kR"/>
 <part name="R921" library="df4iah_rcl" deviceset="R-EU_" device="R0805" value="NC"/>
-<part name="R931" library="df4iah_rcl" deviceset="R-EU_" device="R0805" value="1kR"/>
-<part name="X931" library="df4iah_connector" deviceset="HEADER-2X2" device=""/>
-<part name="L934" library="df4iah_rcl" deviceset="R-EU_" device="R1206" value="BEAD 300R"/>
-<part name="C934" library="df4iah_rcl" deviceset="C-EU" device="C0805" value="100nF"/>
+<part name="R931" library="df4iah_rcl" deviceset="R-EU_" device="R0805" value="1kR">
+<variant name="noDCF77" populate="no"/>
+</part>
+<part name="X931" library="df4iah_connector" deviceset="HEADER-2X2" device="">
+<variant name="noDCF77" populate="no"/>
+</part>
+<part name="L934" library="df4iah_rcl" deviceset="R-EU_" device="R1206" value="BEAD 300R">
+<variant name="noDCF77" populate="no"/>
+</part>
+<part name="C934" library="df4iah_rcl" deviceset="C-EU" device="C0805" value="100nF">
+<variant name="noDCF77" populate="no"/>
+</part>
 <part name="X951" library="df4iah_connector" deviceset="HEADER-2X3" device=""/>
 <part name="GND951" library="df4iah_supply" deviceset="GND" device=""/>
 <part name="+5V_951" library="df4iah_supply" deviceset="+5V" device=""/>
 <part name="FRAME_06" library="df4iah_frame" deviceset="A4L-LOC" device="" value="Holes"/>
-<part name="U511" library="df4iah_74xxx" deviceset="74*4059" device="M"/>
+<part name="U511" library="df4iah_74xxx" deviceset="74*4059" device="M">
+<variant name="noDCF77" populate="no"/>
+</part>
 <part name="GND511" library="df4iah_supply" deviceset="GND" device=""/>
 <part name="+5V_511" library="df4iah_supply" deviceset="+5V" device=""/>
-<part name="C511" library="df4iah_rcl" deviceset="C-EU" device="C0805" value="1uF"/>
+<part name="C511" library="df4iah_rcl" deviceset="C-EU" device="C0805" value="1uF">
+<variant name="noDCF77" populate="no"/>
+</part>
 <part name="GND521" library="df4iah_supply" deviceset="GND" device=""/>
 <part name="+5V_521" library="df4iah_supply" deviceset="+5V" device=""/>
-<part name="R551" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="0R"/>
-<part name="R552" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="N/A"/>
-<part name="R558" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="N/A"/>
-<part name="R553" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="N/A"/>
-<part name="R554" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="N/A"/>
-<part name="R555" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="0R"/>
-<part name="R556" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="N/A"/>
-<part name="R557" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="N/A"/>
+<part name="R551" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="0R">
+<variant name="noDCF77" populate="no"/>
+</part>
+<part name="R552" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="N/A">
+<variant name="noDCF77" populate="no"/>
+</part>
+<part name="R558" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="N/A">
+<variant name="noDCF77" populate="no"/>
+</part>
+<part name="R553" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="N/A">
+<variant name="noDCF77" populate="no"/>
+</part>
+<part name="R554" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="N/A">
+<variant name="noDCF77" populate="no"/>
+</part>
+<part name="R555" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="0R">
+<variant name="noDCF77" populate="no"/>
+</part>
+<part name="R556" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="N/A">
+<variant name="noDCF77" populate="no"/>
+</part>
+<part name="R557" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="N/A">
+<variant name="noDCF77" populate="no"/>
+</part>
 <part name="GND551" library="df4iah_supply" deviceset="GND" device=""/>
-<part name="R571" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="N/A"/>
-<part name="R572" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="0R"/>
-<part name="R573" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="0R"/>
-<part name="R574" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="0R"/>
-<part name="R575" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="N/A"/>
-<part name="R576" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="0R"/>
-<part name="R577" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="0R"/>
-<part name="R578" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="0R"/>
+<part name="R571" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="N/A">
+<variant name="noDCF77" populate="no"/>
+</part>
+<part name="R572" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="0R">
+<variant name="noDCF77" populate="no"/>
+</part>
+<part name="R573" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="0R">
+<variant name="noDCF77" populate="no"/>
+</part>
+<part name="R574" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="0R">
+<variant name="noDCF77" populate="no"/>
+</part>
+<part name="R575" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="N/A">
+<variant name="noDCF77" populate="no"/>
+</part>
+<part name="R576" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="0R">
+<variant name="noDCF77" populate="no"/>
+</part>
+<part name="R577" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="0R">
+<variant name="noDCF77" populate="no"/>
+</part>
+<part name="R578" library="df4iah_rcl" deviceset="R-EU_" device="R0402" value="0R">
+<variant name="noDCF77" populate="no"/>
+</part>
 </parts>
 <sheets>
 <sheet>
